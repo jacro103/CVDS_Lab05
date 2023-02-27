@@ -1,1 +1,6 @@
-MVC/target/
+target
+.DS_Store
+/nbproject/
+.idea
+*.iml
+*.vscode
