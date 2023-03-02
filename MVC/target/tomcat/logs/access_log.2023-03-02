@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [02/Mar/2023:17:27:21 -0500] "GET / HTTP/1.1" 200 185 http-bio-8080-exec-1 46
+0:0:0:0:0:0:0:1 - - [02/Mar/2023:17:27:21 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [02/Mar/2023:17:28:32 -0500] "GET /helloServlet/name=%20sebsatian HTTP/1.1" 404 1011 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [02/Mar/2023:17:28:43 -0500] "GET /helloServlet/?name=%20sebsatian HTTP/1.1" 404 977 http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [02/Mar/2023:17:29:10 -0500] "GET /helloServlet?name=%20sebsatian HTTP/1.1" 200 27 http-bio-8080-exec-8 3

@@ -6,8 +6,10 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.List;
+
 import com.google.gson.Gson;
-import edu.eci.cvds.servlet.model.Todo;
+
+import edu.eci.cvds.servlet.model.Todo.Todo;
 
 
 public class Service {
