@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import edu.eci.cvds.servlet.model.Todo.Todo;
 
 @WebServlet(
-        urlPatterns = "/jseplServlet"
+        urlPatterns = "/JC_SB_Servlet"
 )
 public class SuperServlet extends HttpServlet {
     static final long serialVersionUID = 35L;
