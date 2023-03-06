@@ -9,7 +9,7 @@
  * Ahora,solicite (GET) el recurso /html.¿Qué se obtiene como resultado?
 
 ## Parte 3
-
+ * ¿Qué diferencia observa?
  * ¿Qué se está viendo? Revise cómo están implementadoslos métodos de la clase Service.java para entender el funcionamiento interno.
 
  
