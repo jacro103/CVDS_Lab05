@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:10:28:31 -0500] "GET / HTTP/1.1" 200 643 http-bio-8080-exec-1 27
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:10:28:32 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:10:28:39 -0500] "POST /JC_SB_Servlet?id=2 HTTP/1.1" 200 169 http-bio-8080-exec-4 792
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:10:28:52 -0500] "POST /JC_SB_Servlet?id=2 HTTP/1.1" 200 169 http-bio-8080-exec-5 75
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:10:29:45 -0500] "GET /JC_SB_Servlet?name=sebastian HTTP/1.1" 200 - http-bio-8080-exec-6 14
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:10:32:02 -0500] "GET /SampleServlet?name=sebastian HTTP/1.1" 404 977 http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:10:32:22 -0500] "GET //helloServlet?name=sebastian HTTP/1.1" 200 25 http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:10:32:28 -0500] "GET //helloServlet?name=%20sebastian HTTP/1.1" 200 27 http-bio-8080-exec-9 1
