@@ -6,3 +6,9 @@
 0:0:0:0:0:0:0:1 - - [09/Mar/2023:10:32:02 -0500] "GET /SampleServlet?name=sebastian HTTP/1.1" 404 977 http-bio-8080-exec-9 2
 0:0:0:0:0:0:0:1 - - [09/Mar/2023:10:32:22 -0500] "GET //helloServlet?name=sebastian HTTP/1.1" 200 25 http-bio-8080-exec-9 2
 0:0:0:0:0:0:0:1 - - [09/Mar/2023:10:32:28 -0500] "GET //helloServlet?name=%20sebastian HTTP/1.1" 200 27 http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:11:02:18 -0500] "GET //helloServlet?name=%20sebastian HTTP/1.1" 200 27 http-bio-8080-exec-1 27
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:11:02:23 -0500] "GET / HTTP/1.1" 500 3337 http-bio-8080-exec-3 70
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:11:02:27 -0500] "GET / HTTP/1.1" 500 3337 http-bio-8080-exec-2 16
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:11:03:07 -0500] "GET //helloServlet?name=%20sebastian HTTP/1.1" 200 27 http-bio-8080-exec-4 1
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:11:03:13 -0500] "GET // HTTP/1.1" 500 3337 http-bio-8080-exec-6 13
+0:0:0:0:0:0:0:1 - - [09/Mar/2023:11:03:18 -0500] "GET /JC_SB_Servlet?id=2 HTTP/1.1" 200 169 http-bio-8080-exec-5 386
