@@ -1,25 +1,26 @@
+lines (23 sloc)  546 Bytes
+
 <!DOCTYPE html>
 <html>
 <head>
-<title>Start Page</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Start Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
 <script>
-    function validateForm() {
-  let x = document.forms["myForm"]["id"].value;
-  if (x.isInteger()) {
-    alert("Name must be filled out");
+  function validateForm() {
+  var x = document.forms["formulario"]["id"].value;
+  if (x != parseInt(x)) {
+    alert("Ingrese un numero valido");
     return false;
   }
 }
 </script>
-</head>
 <body>
 <h1>Hello World!</h1>
-
-<form name="myForm" action="http://localhost:8080/JC_SB_Servlet?id=2" onsubmit="return validateForm()" method="post">    
-    <label for="id">ID: </label><br>
-    <input type="number" id="id" name="id"><br>
-        <input type="submit" value="button">
+<form name="formulario" action="/JC_SB_Servlet" method="post">
+    <p> numero : <input type ="text" name="id"></p>
+    <p> <input type="submit" value="Enviar"> </p>
 </form>
+
 </body>
 </html>
