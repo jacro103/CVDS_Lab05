@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import edu.eci.cvds.servlet.model.Todo.Todo;
+import edu.eci.cvds.servlet.model.Todo;
 
 @WebServlet(
         urlPatterns = "/JC_SB_Servlet"

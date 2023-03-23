@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 @WebServlet(
-    urlPatterns = "/helloServlet"
+        urlPatterns = "/helloServlet"
 )
 public class SampleServlet extends HttpServlet{
     static final long serialVersionUID = 35L;
@@ -17,10 +17,8 @@ public class SampleServlet extends HttpServlet{
         Writer responseWriter = resp.getWriter();
         Optional<String> optName = Optional.ofNullable(req.getParameter("name"));
         String name = optName.isPresent() && !optName.get().isEmpty() ? optName.get() : "";
-
         resp.setStatus(HttpServletResponse.SC_OK);
         responseWriter.write("Hello" + name + "!");
         responseWriter.flush();
     }
-    
 }

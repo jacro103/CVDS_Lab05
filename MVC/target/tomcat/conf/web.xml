@@ -242,8 +242,6 @@
     </servlet>
 
 
-
-
   <!-- NOTE: An SSI Filter is also available as an alternative SSI          -->
   <!-- implementation. Use either the Servlet or the Filter but NOT both.   -->
   <!--                                                                      -->
